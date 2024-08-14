@@ -94,7 +94,6 @@ def evaluate(model, test_loader, device):
 
 def run():
 
-    
     num_epochs = 20
     patience = 5
     early_stopping = EarlyStopping(patience=patience, min_delta=0.01)
