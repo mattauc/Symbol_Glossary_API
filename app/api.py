@@ -53,4 +53,4 @@ def predict():
         predicted_class = classes[predicted.item()]
         print(predicted_class)
 
-    return jsonify({'class': predicted_class})
+    return jsonify({'symbol': predicted_class})
